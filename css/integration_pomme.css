@@ -1,0 +1,100 @@
+body{
+    margin: 10px 0;
+    padding: 0;
+    text-align: center; /*EMMET tac + tab*/
+    font-family: 'PT Sans' sans-serif;
+    background: chartreuse; /*#dea raccourci de DDEEAA*/
+
+}
+div#conteneur{
+    width: 770px; /* largueur*/
+    margin: 0 auto;
+    text-align: left;
+    border: 2px solid blue;
+    background: white;
+
+}
+h1#header{
+    height: 258px;  /*personnalise la hauteur du titre */
+    background: url(../img/apple.jpg) no-repeat left top;
+    margin: 0; /* EMMET margin: 0; => m0 + tab */
+}
+h1#header a{
+    width: 400px;
+    height: 70px;
+    display: block;
+    background: url(../img/title.gif) no-repeat; /*EMMET => bgu +tab*/
+    position: relative; /*je regle sa position par rapport a la baliseparent*/
+    left: 350px;
+    top: 15px;
+    text-indent: -5000px; /*text-indent => retrait */
+}
+ul#menu{
+    /* je donne a mon menu la meme hauteur que l'image que je vais utiliser*/
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    background: url(../img/bg_menu.gif) repeat-x 0 -25px; /* repeat-x => repete l'image horizontalement (axe x) -0 => aucun decalage a gauche -et -25px remonte l'image*/
+    list-style-type: none; /*EMMET => lst + rtab -on cache les puce*/
+}
+ul#menu li{
+    float: left; /* aligne les li sur la meme ligne*/
+    text-align: center; /* EMMET => tac + tab */
+}
+ul#menu li a{
+    width: 130px;
+    line-height: 25px;
+    font-size: 1.2em;
+    font-weight: bold; /* caracteres en gras -EMMET- => fwd + tab*/
+    letter-spacing: 2px; /*espace en les lettres*/
+    color: #ffff;
+    display: block; /*EMMET => db + tab */
+    text-decoration:none; /* supprime l'affichage par defaut ici d'un lien (bleu souligné) -EMMET => tdn + tab*/
+    border-right: 2px solid #dea;
+}
+
+
+
+div#contenu{
+    padding: 0 30px 0 100px; /* haut droite bas gauche */
+    background: url(../img/bg_page.gif) no-repeat left top;
+    /* EMMET background-repeat => bgi + tab */
+    background-position: 15px 15px; 
+
+}
+div#contenu h2{
+    padding-left: 25px;
+    line-height: 25px;
+    font-size: 1.4em;
+    background: url(../img/little_apple.gif) no-repeat left bottom;
+    color: green;
+    border-bottom: 1px solid firebrick;
+ 
+}
+
+div#contenu h3{
+    margin-left: 15px;
+    /*EMMET margin-left => ml + tab*/
+    padding-left: 5px;
+    border-bottom: 1px solid yellowgreen;
+    border-left: 3px solid yellowgreen;
+
+}
+div#contenu p{
+text-align: justify;
+text-indent: 2em;
+line-height: 1.7em;
+}
+div#contenu a{
+    color: greenyellow;
+}
+div#contenu a:hover{
+    color: red;
+}
+p#footer{
+    margin:  0; /*EMMET = m+0*/
+    padding-right: 10px;
+    line-height: 30px;
+    text-align: right;
+    color: green;
+}

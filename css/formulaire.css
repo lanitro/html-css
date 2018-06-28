@@ -1,0 +1,10 @@
+label {
+    float: left; /*float => j'aligne un élément ici sur la gauche*/
+    width: 190px;/*largeur de mon label*/
+    color: blue; /*couleur du texte*/
+    background: red; /*couleur de fond en code hexadecimale ou RVB*/
+
+    
+} body {
+    
+}

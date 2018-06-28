@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>les liens</title>
+    <link rel="stylesheet" href="css/06_bis_liens.css">
+</head>
+<body>
+   <h1>les liens d'une page HTML ou la navigation</h1>
+   <h2 id= "top">les ancres : liens dans la meme page</h2> 
+   <!-- (p>a)*8-->
+   <p><a href="#interieur"></a></p>
+   <p><a href=""></a></p>
+   <p><a href=""></a></p>
+   <p><a href=""></a></p>
+   <p><a href=""></a></p>
+   <p><a href=""></a></p>
+   <p><a href=""></a></p>
+   <p><a href=""></a></p>
+
+   <!-- h2#interieur -->
+   <h2 id= "interieur"> une autre page du meme site</h2>
+       <a href="06_bis_liens_page2.html">cliquer ici pour aller en page 2</a>
+       <a href="top">remonter</a>
+       <hr>
+       <!--h2#onglet-->
+<h2 id= "onglet">un nouvel onglet</h2>
+<a href="06_bis_liens_page2.html" target="_blank">cliquer ici pour aller en page 2</a>
+<a href="#top">remonter</a>
+<hr>
+
+
+<!--h2#site-->
+<h2 id= "site">un autre site</h2>
+<a href="https://www.booska-p.com/" title="site d'actualités rap">l'attribut TITLE affiche une info-bulle au survol de la souris</a>
+
+<!--h2#telecharger-->
+<h2 id="telecharger">telecharger n fichier</h2>
+<a href="img/bkg.jpg"></a>
+<hr>
+
+<!--h2#visualiser -->
+<h2id= "visualiser">ouvrir un pdf dans mon navigateur</h2>
+<a href="#top">remonter</a>
+
+<!--h2#download-->
+<h2 id="download">telecharger un pdf</h2>
+<a href="img/image.pdf"download>l'attribut DOWNLOAD propose de telecharger le fichier</a>
+<a href="#top">remonter</a>
+<hr>
+
+<!--h2#image-->
+<h2 id ="image">mettre un lien sur une image</h2>
+<a href="https://www.20minutes.fr/"> 
+<img src="img/image.jpg" alt="lion">
+</a>
+<a href="#top">remonter</a>
+<hr>
+
+<!--h2#print -->
+<h2 id="print">imprimer la page en cours</h2>
+<a href="" onclick="window.print()">onclick=> je detecte si on a cliqué / window => la page html actuelle / print() => fonction javascript pour imprimer</a>
+<a href="#top">remonter</a>
+<hr>
+</body>
+</html>

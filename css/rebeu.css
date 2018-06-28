@@ -1,0 +1,26 @@
+body{
+    width: 50%;
+    margin:  0 auto;
+}
+table {
+    margin: 25px;
+    border-collapse: collapse;
+}
+td{
+    height: 20px;
+    width: 20px;
+}
+.noir{
+    background-color: black;
+}
+.marron{
+    background-color: brown;
+
+}
+.saumon{
+    background-color: salmon;
+}
+.vert{
+    background-color: green;
+
+}

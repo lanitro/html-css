@@ -1,0 +1,11 @@
+.contenu{
+    background: linear-gradient(to left,green, purple);
+    /*gradient => dégradé- debute avec la 1ere couleur et fini avec la 2nde de haut en bas par defaut mais on a ajouté TO LEFT qui fait un dégradé de gauche à droite */
+    width: 45em; /* largeur*/
+    height: 45em; /*hauteur */
+    margin: 0 auto; /* pas de marge en haut et en bas (vaeur 0) -auto pour les marge de droite et de gauche laissent le navigateur centré l'élément*/
+    border-radius: 20% 50% 10% 80%; /*la propriété border-radius permet d'arrondir les angles -EMMET border-radius => bdra + tab*/
+}
+body{
+    background-color: pink;
+}

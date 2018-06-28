@@ -1,0 +1,17 @@
+h1, h3, div, a, p, span, section{
+    text-align: center;
+    border: 1px solid darkblue;
+    background-color: orchid;
+    color: white;
+}
+
+.block{
+    /* on modifie l'affichage par defaut de la balise a qui est INLINE pour qu'elle se comporte comme une balise BLOCK*/
+    display: block;
+}
+
+.inline{
+    /*on modifie l'affichage par defaut de la balise div qui est BLOCK pour qu'elle se comporte comme une balsie INLINE*/
+
+display: inline-block;
+}

@@ -1,0 +1,33 @@
+body{
+    width: 80%;
+    margin:  10px auto; /* marge haut d& bas 
+    / auto =>navigateur centre automatiquement le body a l'ecran*/
+    font-family: cursive;
+}
+
+#contenu{
+    background-color: turquoise;
+    border: 2px solid black;
+}
+header, footer{
+    height: 80px;
+    background-color: fuchsia;
+    color: white;
+    text-align: center;
+    padding-top: 6px; /* padding => marge interieur*/
+}
+nav{
+    height: 40px;
+    background-color: blue;
+    color: white;
+    padding-left: 20px; /*EMMET padding-left =>pl+tab*/
+    padding-top: 6px;
+    /* EMMET padding-top => pt+tab*/
+
+}
+main{
+    border: 20px solid brown;
+    background-color: green;
+    height: 500px;
+    text-align: center;
+}

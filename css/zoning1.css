@@ -1,0 +1,48 @@
+#contenu{
+    width: 80;
+    margin: 0 auto;
+    border: 2px solid darkslategray;
+}
+
+header{
+    background-color: darkred;
+    /*EMMET background-color => bgc +tab*/
+    height: 100px;
+
+}
+nav{
+    background-color: darkcyan;
+    height: 30px;
+}
+main{
+    background-color: chocolate;
+    height: 500px;
+    margin: 20px;
+}
+#a, #b, #c, #d{
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+#a{
+    background-color: coral;
+
+}
+#b {
+    background-color: chartreuse;
+}
+#c{
+    background-color: teal;
+
+}
+#d{
+    background-color: slateblue;
+}
+footer{
+    background-color: rosybrown;
+    height: 100px;
+
+}
+.clear{
+    clear: both;
+}

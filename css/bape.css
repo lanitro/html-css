@@ -1,0 +1,22 @@
+.c0, .c1, .c2, .c3{
+    height: 10em;
+    width: 10em;
+    border: 0.2em solid;
+    margin: 0.2em;
+    float: left;
+    text-align: center;
+    border-radius: 20%;
+}
+.c1{
+    background-color: fuchsia;
+}
+.c2{
+    background-color: darkturquoise;
+}
+.c3{
+    background-color: greenyellow;
+}
+
+.clear{
+    clear: both;
+}
