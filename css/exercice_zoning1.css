@@ -1,0 +1,39 @@
+#contenu{
+    width: 80;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+header{
+    background-color: rgb(226, 72, 72);
+    height: 100px;
+    margin-top: -15px;
+}
+main{
+    background-color: beige;
+    height: 500px;
+    margin: 20px;
+}
+.zdg{
+    background-color: paleturquoise;
+width: 20%;
+height: 115%;
+float: left;
+
+}
+.a{
+   width: 12%;
+   height: 480px;
+   float: left;
+}
+.a{
+    background-color: green;
+}
+.zdd{
+   background-color: paleturquoise;
+width: 20%;
+height: 115%;
+float: right;
+}
+footer{
+    background-color: yellow;
+}

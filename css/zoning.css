@@ -27,7 +27,7 @@ nav{
 }
 main{
     border: 20px solid brown;
-    background-color: green;
+    background-color: rgb(160, 212, 160);
     height: 500px;
     text-align: center;
 }

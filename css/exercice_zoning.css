@@ -1,0 +1,49 @@
+#contenu{
+    width: 80;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+header{
+    background-color: rgb(192, 161, 161);
+    height: 100px;
+
+}
+nav{
+    background-color: rgb(93, 104, 93);
+    height: 30px;
+    margin-top: -20px;
+
+}
+main{
+    background-color: turquoise;
+    height: 500px;
+    margin: 20px;
+
+}
+#a, #b, #c, #d{
+     width: 50%;
+     height: 50px;
+    float: left;
+}
+#a{
+    background-color: coral;
+
+}
+#b {
+    background-color: chartreuse;
+}
+#c{
+    background-color: teal;
+
+}
+#d{
+    background-color: slateblue;
+}
+footer{
+    background-color: steelblue;
+    height: 100px;
+
+}
+.clear{
+    clear: both;
+}
