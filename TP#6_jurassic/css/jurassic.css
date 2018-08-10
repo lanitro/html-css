@@ -1,0 +1,103 @@
+.conteneur{
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav{
+    position: relative;
+    top: 95px;
+    background: rgba(0, 0, 0, 0.3);
+    width: 0px;
+}
+nav ul{
+    display: -webkit-inline-box;
+}
+nav li, a{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    
+}
+.ok {
+    position: relative;
+    top: -878px;
+    left: 320px;
+}
+.ok1{
+    position: relative;
+    top: -817px;
+    left: 561px;
+}
+.ok2{
+    position: relative;
+    top: -810px;
+    left: 357px;
+}
+.ok3{
+    position: relative;
+    top: -795px;
+    text-align: center;
+}
+.ok4{
+    position: relative;
+    top: -750px;
+    text-align: center;
+}
+.fondbleu{
+    background-color: blue;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: inline-block;
+    position: relative;
+    top: -730px;
+    left: 350px;
+}
+.bloc1{
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 216px;
+    top: -550px
+}
+.fondbleu1{
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    padding-left: 17px;
+    padding-right: 17px;
+
+}
+.bloc2{
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 216px;
+    top: -549px;
+}
+.bloc3{
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 869px;
+    top: -965px;
+}
+.bloc4{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    position: relative;
+    left: 150px;
+    top: -853px;
+}
+.pic1, .pic2, .pic3, .pic4{
+    float: left;
+    margin-left: 150px;
+}
+
+
+.clear{
+    clear: both;
+}

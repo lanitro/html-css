@@ -49,7 +49,7 @@ ul#menu li a{
     letter-spacing: 2px; /*espace en les lettres*/
     color: #ffff;
     display: block; /*EMMET => db + tab */
-    text-decoration:none; /* supprime l'affichage par defaut ici d'un lien (bleu souligné) -EMMET => tdn + tab*/
+    text-decoration: none; /* supprime l'affichage par defaut ici d'un lien (bleu souligné) -EMMET => tdn + tab*/
     border-right: 2px solid #dea;
 }
 

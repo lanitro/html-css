@@ -1,0 +1,128 @@
+.conteneur {
+    background-color: rgb(38, 58, 122);
+    margin: 0 auto;
+    width: 80%;
+    height: 3000px;
+
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.chaton{
+    margin-left: 511px;
+}
+.cat1{
+    float: left;
+    position: relative;
+    left: -80px;
+}
+.cat2{
+    float: left;
+}
+.cat3{
+    float: left;
+    position: relative;
+    left: 98px;
+}
+.cat4{
+    float: left;
+    position: relative;
+    left: -89px;
+    top: 155px;
+}
+.cat5{
+    float: left;
+    position: relative;
+    left: -44px;
+    top: 157px;
+}
+.cat6{
+    float: left;
+    position: relative;
+    left: 18px;
+    top: 155px;
+}
+.cat7{
+    float: left;
+    position: relative;
+    top: 278px;
+    left: -90px;
+}
+.cat8{
+    float: left;
+    position: relative;
+    top: 277px;
+    left: -39px;
+}
+.cat9{
+    float: left;
+    position: relative;
+    top: 276px;
+    left: 34px;
+}
+h2{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 350px;
+}
+.chaton1{
+    margin-left: 421px;
+    margin-top: 410px;
+
+}
+.cat10{
+    float: left;
+    position: relative;
+    left: -43px
+}
+.cat11{
+    float: left;
+    
+}
+.cat12{
+    float: left;
+    position: relative;
+    left: 50px;
+}
+.cat13{
+    float: left;
+    position: relative;
+    left: 102px;
+}
+.cat14{
+    float: left;
+    position: relative;
+    left: -42px;
+    top: 71px;
+}
+.cat15{
+    float: left;
+    position: relative;
+    left: 31px;
+    top: 68px;
+}
+.cat16{
+    float: left;
+    position: relative;
+    left: 141px;
+    top: 69px;
+}
+.cat17{
+    float: left;
+    position: relative;
+    top: 111px;
+    left: 109px;
+}
+.cat18{
+    float: left;
+    position: relative;
+    top: 112px;
+    left: 283px;
+}
+
+
+.clear{
+    clear: both;
+}

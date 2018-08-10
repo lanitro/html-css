@@ -1,0 +1,397 @@
+.conteneur{
+    width: 80%;
+    margin: 0 auto;
+}
+.gray{
+    background-color: gray;
+    height: 30px;
+    width: 100%;
+
+}
+.sat{
+    float: left;
+    width: 35%;
+    line-height: 0em
+}
+.bes{
+    float: left;
+    width: 32%;
+    line-height: 0em
+}
+.pai{
+    float: left;
+    width:  20%;
+    line-height: 0em
+}
+
+
+
+
+.blue{
+    background-color: rgb(219, 215, 215);
+    height: 300px;
+    width: 100%;
+}
+.devis{
+    position: relative;
+    top: -30px;
+    left: 700px;
+
+}
+.devis1{
+    position: relative;
+    left: 1006px;
+    top: -83px;
+}
+.devis2{
+    position: relative;
+    left: 1003px;
+    top: -98px;
+}
+.compte{
+    position: relative;
+    left: 1438px;
+    top: -157px;
+}
+.compte1{
+    position: relative;
+    left: 88%;
+    top: -84%;
+}
+.compte2{
+   position: relative;
+   left: 1331px;
+   top: -265px;
+}
+.conseil{
+    position: relative;
+    left: 954px;
+    top: -148px;
+}
+.conseil1{
+    position: relative;
+    left: 1009px;
+    top: -205px;
+}
+.conseil2{
+    position: relative;
+    left: 1013px;
+    top: -220px;
+}
+.panier{
+    width: 3%;
+    height: 15%;
+    position: relative;
+    left: 1450px;
+    top: -280px;
+}
+.panier1{
+    position: relative;
+    left: 1351px;
+    top: -343px;
+}
+.panier2{
+    position: relative;
+    left: 1341px;
+    top: -354px;
+}
+nav {
+ background: rgb(141, 137, 137);
+ width: 100%;
+ text-align: center;
+ 
+}
+nav ul {
+ padding: 0;
+ margin: 0;
+}
+nav ul li {
+ display: inline-block;
+ list-style-type: none;
+ margin: 0;
+ padding: 10px 0;
+}
+
+
+/* nav{
+    background-color: green;
+    width: 100%;
+    margin-left: 0px;
+   
+}
+li{
+    margin-left: 182px;
+    list-style: none;
+} */
+.brown{
+    height: 500px;
+    width: 100%;
+    
+
+}
+.one{
+    float: left;
+
+}
+.two{
+    float: left;
+    margin-left: 908px;
+    width: 404px;
+    margin-top: -437px;
+}
+.three{
+    float: left;
+    width: 404px;
+    margin-left: 909px;
+    margin-top: -198px;
+}
+
+.green{
+    height: 800px;
+    width: 100%;
+
+}
+.bloc1{
+    width: 30%;
+    height: 350px;
+    float: left;
+    margin-left: 70px;
+}
+.carre1, .carre2, .carre3, .carre4, .carre5, .carre6{
+    float: left;
+    width: 350px;
+    height: 230px;
+    margin-top: 20px;
+    margin-left: 47px;
+}
+.par1, .par2, .par3, .par4, .par5, .par6{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 144px;
+    top: -15px;
+}
+.tarif1, .tarif2, .tarif3, .tarif4, .tarif5, .tarif6{
+    display: inline-block;
+    color: fuchsia;
+}
+.prod1, .prod2, .prod3, .prod4, .prod5, .prod6{
+    display: inline-block;
+    position: relative;
+    left: -250px;
+    top: 17px;
+    color: white;
+    background-color: black
+}
+.pan1, .pan2, .pan3, .pan4, .pan5, .pan6{
+    display: inline-block;
+    position: relative;
+    background-color: fuchsia;
+    color: white;
+    left: 112px;
+    top: -33px;
+}
+.dev1, .dev2, .dev3, .dev4, .dev5, .dev6{
+    display: inline-block;
+    position: relative;
+    background-color: gray;
+    left: -86px;
+    top: -16px;
+}
+.bloc2{
+    width: 30%;
+    height: 350px;
+    float: left;
+}
+.bloc3{
+    width: 30%;
+    height: 350px;
+    float: left;
+}
+.bloc4{
+    width: 30%;
+    height: 350px;
+    float: left;
+    margin-left: 70px;
+}
+.bloc5{
+    width: 30%;
+    height: 350px;
+    float: left;
+}
+.bloc6{
+    width: 30%;
+    height: 350px;
+    float: left;
+}
+
+.violet{
+    background-color: darkviolet;
+    height: 500px;
+    width: 100%;
+}
+.col1{
+    display: inline-block;
+    background-color: gray;
+    width: 520px;
+    height: 500px;
+    float: left;
+}
+.add{
+    text-align: center;
+    position: relative;
+    top: 71px;
+    left: -40px;
+    color: white;
+}
+.tel{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: -35px;
+    color: white;
+}
+.mail{
+    text-align: center;
+    position: relative;
+    left: -790px;
+    top: 333px;
+    color: white;
+}
+.col2{
+    display: inline-block;
+    background-color: gray;
+    width: 520px;
+    height: 500px;
+    float: left;
+    
+
+}
+.horraire{
+    text-align: center;
+    position: relative;
+    top: 72px;
+    color: white;
+}
+.col3{
+    display: inline-block;
+    background-color: gray;
+    width:  469px;
+    height: 500px;
+    float: left;
+}
+.qui{
+    text-align: center;
+    position: relative;
+    top: 65px;
+    color: white;
+}
+footer{
+    background-color: orange;
+    height: 1086px;
+    width: 100%;
+
+}
+.footer1{
+    float: left;
+}
+.col4{
+    background-color: rgb(219, 215, 215);
+    display: inline-block;
+    width: 33%;
+    height: 545px;
+    float: left;
+}
+.eshop{
+    text-align: center;
+
+}
+.eshop1{
+    display: inline-block;
+    position: relative;
+    left: 20px;
+}
+.eshop2{
+
+}
+.col5{
+    background-color: rgb(219, 215, 215);
+    display: inline-block;
+    width: 33%;
+    height: 545px;
+    float: left;
+}
+.info{
+    text-align: center;
+}
+.info1{
+    text-align: center;
+}
+.col6{
+    background-color: rgb(219, 215, 215);
+    display: inline-block;
+    width: 34%;
+    height: 545px;
+    float: left;
+}
+.qual{
+    text-align: center;
+}
+.qual1{
+    display: inline-block;
+    margin-left: 100px;
+    width: 285px;
+}
+.col7{
+    background-color: rgb(219, 215, 215);
+    display: inline-block;
+    width: 1415px;
+    height: 540px;
+}
+.footer2{
+    float: left;
+}
+.col8{
+    background-color: rgb(219, 215, 215);
+    display: inline-block;
+    float: left;
+    height: 1086px;
+    width: 471px;
+}
+.partage{
+    text-align: center;
+}
+.partage1{
+    display: inline-block;
+    position: relative;
+    left: 95px;
+    top: 14px;
+}
+.partage2{
+    display: inline-block;
+    position: relative;
+    left: 92px;
+    top: 54px;
+    
+}
+
+.ancre{
+    background-color: rgb(219, 215, 215);
+    height: 140px;
+
+}
+.ancre1{
+    position: relative;
+    left: 968px;
+}
+.ancre2{
+    position: relative;
+    left: 1348px;
+  top: 58px;
+}
+
+
+
+.clear{
+    clear: both;
+}

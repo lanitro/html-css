@@ -1,0 +1,107 @@
+.conteneur{
+    width: 80%;
+    height: 80%;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: snow;
+}
+
+
+.logo1{
+    position: absolute;
+    top: 4%;
+    left: 11%;
+}  
+h1{
+    position: absolute;
+    top: 1%;
+    left: 13%;
+}  
+.vente{
+    position: absolute;
+    top: 7%;
+    left: 11%
+}
+h2{
+   position: absolute;
+   left: 44%;
+   top: 2%; 
+}
+.logo2{
+    position: absolute;
+    left: 43%;
+    top: 9%;
+}
+.vente1{
+    position: absolute;
+    left: 42%;
+    top: 10%;
+}
+.vente2{
+    position: relative;
+    left: 90%;
+    top: -6%;
+}
+.logo3{
+    position: absolute;
+    left: 77%;
+    top: 7%;
+
+}
+ul{
+    list-style: none;
+    float: left;
+    background-color: rgb(0, 153, 255);
+    display: inline;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+li{
+    display: inline-block;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+.logo4{
+    width: 100%;
+}
+.vente3{
+    position: absolute;
+    left: 80%;
+    top: 8%;
+}
+.colonne1{
+    float: left;
+    width: 16%;
+}
+.vente4{
+    padding-left: 41%;
+}
+.vente5{
+    padding-left: 31%;
+}
+h3{
+    color: rgb(0, 153, 255);
+
+}
+.colonne2{
+    width: 64%;
+    float: left;
+}
+.colonne3{
+    width: 20%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+
+
+

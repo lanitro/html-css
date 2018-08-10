@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,58 +8,65 @@
     <title>formulaire</title>
     <link rel="stylesheet" href="css/formulaire.css">
 </head>
+
 <body>
-  <h1>formulaire</h1>
-  <!--je declare mon formulaire avec balise FORM-->
-  <form action="">
-      <fieldset>
-          <legend>Identité</legend>
-          <label for="">pseudo *</label>
-          <input type="text" placeholder="texte d'exemple" required>
-          <!-- required rend le champs obligatoire pour valider le formulaire -->
-          
-          <!--mot de passe-->
-          <label for="">Mot de passe*</label>
-          <input type="password" required>
+    <h1>formulaire</h1>
+    <!--je declare mon formulaire avec balise FORM-->
+    <form action="">
+        <fieldset>
+            <legend>Identité</legend>
+            <label for="">pseudo *</label>
+            <input type="text" placeholder="texte d'exemple" required>
+            <!-- required rend le champs obligatoire pour valider le formulaire -->
 
-          <!--email-->
-          <label for="">mail</label>
-          <input type="email" placeholder="moi.coucou@mail.fr"><br>
-        
-          <!--fichier-->
+            <!--mot de passe-->
+            <label for="">Mot de passe*</label>
+            <input type="password" required>
 
-          <label for="">photo</label>
-          <input type="file"><br>
+            <!--email-->
+            <label for="">mail</label>
+            <input type="email" placeholder="moi.coucou@mail.fr">
+            <br>
+
+            <!--fichier-->
+
+            <label for="">photo</label>
+            <input type="file">
+            <br>
         </fieldset>
 
         <fieldset>
-<legend>questions</legend>
+            <legend>questions</legend>
 
-<!--case à cocher-->
-<label for="">ou part-on en vacances ?</label>
-<p>
-    <input type="checkbox">chine
-    <!--checked coche une case par defaut-->
-    <input type="checkbox" checked>australia
-    <input type="checkbox">mars
-</p>
+            <!--case à cocher-->
+            <label for="">ou part-on en vacances ?</label>
+            <p>
+                <input type="checkbox">chine
+                <!--checked coche une case par defaut-->
+                <input type="checkbox" checked>australia
+                <input type="checkbox">mars
+            </p>
 
-<!--zone de texte-->
-<label for="mail">commentaire</label>
-<!--je dimensionne ma zone de texte avec un attributs COLS (colonnes =nb de caracteres)
+            <!--zone de texte-->
+            <label for="mail">commentaire</label>
+            <!--je dimensionne ma zone de texte avec un attributs COLS (colonnes =nb de caracteres)
 et ROWS (rangs/lignes)-->
-<textarea name="" id="" cols="30" rows="10"></textarea><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <br>
         </fieldset>
 
         <!--bouton d'envoi du formulaire-->
         <input type="submit" value="envoyer">
         <!--bouton pour vider le formulaire-->
         <input type="reset" value="annuler">
-        </form>
-  </head>
-  <body>
-      
-  </body>
-  </html>
+    </form>
+    </head>
+
+    <body>
+
+    </body>
+
+</html>
 </body>
+
 </html>

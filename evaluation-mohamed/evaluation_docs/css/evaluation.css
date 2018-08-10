@@ -1,0 +1,90 @@
+.conteneur{
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../img/background.png);
+}
+/**debut de la nav***/
+nav{
+    background-color: #C55394; 
+}
+nav ul{
+    display: -webkit-inline-box;
+}
+nav li, a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+/**fin de la nav**/
+/** debut arc en ciel + titre**/
+.arc{
+    position: relative;
+    left: 580px;
+    top: 155px;
+}
+.titre{
+    color: #C55394;
+    position: relative;
+    left: 775px;
+    top: -57px;
+}
+/**fin arc en ciel + titre**/
+h2, h3{
+    color: #EB43A3;
+}
+/**debut du cadre contenu pricipale des 3 sections "principe"
+ "licorne" et "noustrouver"**/
+.cadre{
+    width: 70%;
+    margin: auto;
+    height: 1281px;
+    background-color: white;
+    border-radius: 30px;
+    border: gray;
+
+}
+.principe{
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 22px;
+    display: inline-block;
+    float: left;
+}
+.licorne{
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 60px;
+}
+
+/**Image**/
+.pic1, .pic2, .pic3, .pic4{
+    float: left;
+    margin-left: 25px;
+}
+figcaption{
+
+}
+/** section "noustrouver" se divise en 2 div appelé "plan" et
+"adresse"**/
+.noustrouver{
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 65px;
+    left: 32px;
+}
+.plan{
+    float: left;
+}
+.adresse{
+    float: left;
+    position: relative;
+    left: 40px;
+}
+/**fin de la div "cadre"**/
+
+.clear{
+    clear: both;
+}

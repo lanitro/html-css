@@ -1,0 +1,36 @@
+body{
+    margin: auto;
+}
+nav{
+    background: green;
+
+}
+
+header{
+    background: turquoise;
+    position: absolute;
+    height: 55%;
+}
+.gauche{
+    background: red;
+    height: 101%;
+    width: 20%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.droite{
+    background: yellow;
+    height: 101%;
+    width: 20%;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+footer{
+    background: green;
+    position: fixed;
+    width: 101%;
+    height: 20%;
+    bottom: -4px;
+}

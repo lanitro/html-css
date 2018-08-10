@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formulaire</title>
+</head>
+<body>
+    <label for=""></label>
+    <input type="text" id="" name="" required>
+    <br>
+    <!-- ID fait le lien avec le FOR du label en HTML le NAME est recuperer en PHP.ce type,
+    d'ID etant dans un formulaire il n'y a pas le souci de limiter l'utilisation de l'attribut ID -->
+
+<label for="mdp">mot de passe*</label>
+<input type="password" id="mdp" name="mdp"required>
+<br>
+
+<label for="email">email*</label>
+<!-- pour champs obligatoire REQUIRED dans l'input -->
+<input type="email" id="email" name="email" placeholder="email required">
+<br>
+<!-- type FILE cree un bouton "parcourir" pour aller chercher un fichier -->
+
+<label for=""></label>
+<select name="" id="">
+    <!-- liste deroulante avec SELECT et non INPUT -->
+    <optgroup label="">
+        <!-- option groupe = sous-categorie dans la liste -->
+        <option value=""></option>
+        <option value=""></option>
+    </optgroup>
+    <optgroup label="">
+        <!-- option groupe= sous- categorie dans la liste -->
+        <option value=""></option>
+        <option value=""></option>
+    </optgroup>
+</select>
+<br>
+
+<label for="choix">choisir</label>
+<p>
+    <!-- cases a cocher carrées, et CHECKED en coche une par defaut -->
+    <input type="checkbox" name="choix"  checked>choix*1 
+    <input type="checkbox" name="choix">choix*2 
+    <input type="checkbox" name="choix">choix*3 
+    
+</p>
+<label for="civilite">civilité</label>
+<p>
+    <!-- case a cocher rondes, CHECKED n coche une par defaut et une seul peut etre choisie -->
+    <input type="radio" name="civilite" id="m"checked>homme 
+    <input type="radio" name="civilite" id="f">femme 
+</p>
+
+<label for="ville">ville</label>
+<input type="text" name="ville" id="ville" list="france">
+<datalist id="france">
+    <!-- la datalist permet de suggerer lorsque l'utilisateur tape. 
+        couplé avec PHP pour aller faire un lien avec une 
+    base de données -->
+    <option>paris</option>
+    <option>lyon</option>
+    <option>marseille</option>
+    </datalist>
+    <br>
+
+    <label for="cp">code postal</label>
+    <input type="text" id="id" name="id" maxlength="5" pattern="[0-9] {5}">
+    <!-- <br> MAXLENGHT impose un max de caracteres et PATTERN permet d'imposer le type de caracteres numerique
+    et comùme PATTERN permet de preciser le nombres de caracteres max, on peut enlever MAXLENGHT ici (on le
+    garde pour les connaissance) -->
+
+<label for="adress">adresse</label>
+<textarea name="adress" id="adress" cols="25" rows="15"></textarea>
+<!-- <br> zone de texte avec des reglage de sa taille ROWS et COLS -->
+
+<label for="jauge">jauge</label>
+<input type="range" min="0" max="50" value="25" id="jauge">
+<br>
+<!-- MIN et MAX corespond a l'echelle et VALUE a la place du curseur par defaut, ici au milieu -->
+ 
+
+<label for="jauge">jauge</label>
+<input type="range" min="0" max="50" value"25" id="jauge">
+<br>
+<!-- MIN et MAX correspondent a l'echelle et VALUE a la place du curseur par defaut, ici 
+au milieu -->
+
+<label for="couleur">couleur</label>
+<input type="color">
+<br>
+<input type="submit" name="inscription" value="S'inscrire">
+<input type="reset" name="efface" value="recommencer">
+<br>
+
+
+</body>
+
+
+</html>
