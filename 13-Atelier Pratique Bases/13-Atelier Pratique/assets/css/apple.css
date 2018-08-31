@@ -1,0 +1,87 @@
+.conteneur{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+nav{
+    background-color: black;
+    margin-left: 246px;
+    margin-right: 256px;
+}
+
+nav ul{
+    display: -webkit-inline-box;
+}
+nav li, a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    text-align: center;
+}
+.img1{
+    position: relative;
+    top: 0px;
+    left: 246px;
+}
+
+.photos{
+    margin-left: 645px;
+}
+.phone1, phone2, phone3, phone4, phone5, phone6{
+ float: left;
+ margin-left: 30px;
+}
+
+.tel{
+    color: white;
+    position: relative;
+    left: 913px;
+    top: -521px;
+}
+.num7{
+    color: gray;
+    position: relative;
+    top: -546px;
+    left: 880px;
+}
+.savoir{
+    color: dodgerblue;
+    position: relative;
+    top: -562px;
+    left: 861px;
+}
+.rdv{
+    color: gray;
+    position: relative;
+    top: -575px;
+    left: 777px;
+}
+.iph{
+    position: relative;
+    top: -140px;
+    left: 450px;
+    float: left;
+}
+.passer{
+    position: relative;
+    left: 720px;
+    top: -123px;
+    color: gray;
+}
+.echange{
+    position: relative;
+    top: -118px;
+    left: 645px;
+    color: gray;
+}
+.marche{
+    position: relative;
+    top: -107px;
+    left: 707px;
+    color: dodgerblue;
+}
+
+.clear{
+    clear: both;
+}
